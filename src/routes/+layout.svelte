@@ -4,10 +4,40 @@
 	import './styles.css';
 </script>
 
+<style>
+    .wrapper {
+        flex: 1;
+        position: relative;
+    }
+    main {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    aside {
+        background-color: orange;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-block: 2rem;
+        padding-inline: 4rem;
+        height: 100%;
+        display: none;
+    }
+</style>
+
 <Header />
 
-<main>
-	<slot />
-</main>
+<div class="wrapper">
+    <main>
+        <slot />
+    </main>
+    
+    <aside>
+        <h1>test</h1>
+    </aside>
+</div>
 
 <Footer />
