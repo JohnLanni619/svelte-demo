@@ -13,9 +13,9 @@
 <nav>
 	<ul>
 		{#each all_episodes as episode }
-		<li>
-			<a href=" ">{episode.title}</a>
-		</li>
+			<li>
+				<a href={`/show/${episode.number}`}>{episode.title}</a>
+			</li>
 		{/each}
 	</ul>
 </nav>
