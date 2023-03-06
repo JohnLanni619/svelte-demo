@@ -6,7 +6,15 @@
     }
 </style>
 
+<script>
+
+    /**
+	 @type {string}
+	 */
+     export let test
+</script>
+
 <div>
     <h1>Svelte Test</h1>
-    <h3>CRABS</h3>
+    <h3>{ test }</h3>
 </div>

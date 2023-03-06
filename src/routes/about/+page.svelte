@@ -1,10 +1,9 @@
 <script>
-	import Component from './Component.svelte';
+	import AboutComponent from './AboutComponent.svelte';
 </script>
 
-<Component />
-
 <h1>About Us</h1>
+<AboutComponent />
 
 <a href="/">Home</a>
 

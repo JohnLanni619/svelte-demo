@@ -14,6 +14,8 @@
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        width: min(1500px, 95%);
+        margin-inline: auto;
     }
     aside {
         background-color: orange;
