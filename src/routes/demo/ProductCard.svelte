@@ -23,9 +23,9 @@
 <div class="product-card">
     <img src={thumbnail} alt="">
     <div class="product-information">
-        <h1 data-id={id}>
+		<a href={`/single-product/${id}`}>
             {title}
-        </h1>
+		</a>
         <p>${price}</p>
 
     </div>

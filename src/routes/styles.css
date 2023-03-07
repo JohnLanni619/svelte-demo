@@ -1,6 +1,7 @@
 /* Global Styles */
 :root {
 	--header-height: 50px;
+	--footer-height: 34px;
 }
 
 html {

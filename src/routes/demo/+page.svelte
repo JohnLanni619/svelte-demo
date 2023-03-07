@@ -24,5 +24,6 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(min(var(--min-column-size), 100%), 1fr));
 		gap: 1rem;
+		padding: 1rem;
 	}
 </style>
